@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Course Project</string>
+    <string name="content_description_empty" />
+    <string name="movie_rating">13+</string>
+    <string name="back_button">Back</string>
+    <string name="movie_title">Avengers:\nEnd Game</string>
+    <string name="movie_genre">Action, Adventure, Fantasy</string>
+    <string name="movie_reviews">125 reviews</string>
+    <string name="movie_storyline">Storyline</string>
+    <string name="movie_description">After the devastating events of Avengers: Infinity War,
+        the universe is in ruins. With the help of remaining allies, the Avengers assemble once more
+        in order to reverse Thanos\' actions and restore balance to the universe.</string>
+    <string name="movie_cast">Cast</string>
+    <string name="robert_downey_jr_name">Robert Downey Jr.</string>
+    <string name="chris_evans_name">Chris Evans</string>
+    <string name="mark_ruffalo_name">Mark Ruffalo</string>
+    <string name="chris_hemsworth_name">Chris Hemsworth</string>
 </resources>
