@@ -274,7 +274,7 @@
             style="@style/TextView.MovieActorName"
             android:layout_width="@dimen/space_0x"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/space_1x"
+            android:layout_marginTop="@dimen/space_1.5x"
             android:text="@string/robert_downey_jr_name"
             app:layout_constraintBottom_toBottomOf="@id/guideline_bottom"
             app:layout_constraintEnd_toEndOf="@id/img_actor_1"
