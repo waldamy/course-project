@@ -8,10 +8,19 @@
     <dimen name="space_3x">12dp</dimen>
     <dimen name="space_2x">8dp</dimen>
     <dimen name="space_1x">4dp</dimen>
+    <dimen name="space_0.5">2dp</dimen>
     <dimen name="space_0x">0dp</dimen>
 
-    <dimen name="heading_1">36sp</dimen>
-    <dimen name="heading_2">18sp</dimen>
-    <dimen name="heading_3">16sp</dimen>
-    <dimen name="heading_4">15sp</dimen>
+
+    <dimen name="heading_1">40sp</dimen> <!-- title -->
+    <dimen name="heading_2">14sp</dimen> <!-- genre, review, storyline, cast -->
+    <dimen name="heading_3">12sp</dimen> <!-- back, rating, actors -->
+
+    <dimen name="height_1x">4sp</dimen>
+    <dimen name="height_2x">8sp</dimen>
+    <dimen name="height_3x">12sp</dimen>
+    <dimen name="height_4x">16sp</dimen>
+    <dimen name="height_5x">20sp</dimen>
+    <dimen name="height_6x">24sp</dimen>
+
 </resources>

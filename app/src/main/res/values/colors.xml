@@ -8,10 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="light_grayish_navy">#FF6D6D80</color>
-    <color name="almost_white">#FFECECEC</color>
+    <color name="semi_50_black">#80000000</color>
+    <color name="semi_50_white">#80FFFFFF</color>
+    <color name="semi_75_white">#BFFFFFFF</color>
     <color name="radial_red">#FFFF3466</color>
+    <color name="almost_white">#FFECECEC</color>
     <color name="light_silver">#FFD8D8D8</color>
-    <color name="transparent_white">#00FFFFFF</color>
+    <color name="light_grayish_navy">#FF6D6D80</color>
+    <color name="semi_50_light_grayish_navy">#806D6D80</color>
     <color name="dark_blue_magenta">#FF191926</color>
+    <color name="transparent_dark_blue_magenta">#00191926</color>
 </resources>
