@@ -17,5 +17,6 @@
     <color name="light_grayish_navy">#FF6D6D80</color>
     <color name="semi_50_light_grayish_navy">#806D6D80</color>
     <color name="dark_blue_magenta">#FF191926</color>
+    <color name="semi_90_dark_blue_magenta">#FF191926</color>
     <color name="transparent_dark_blue_magenta">#00191926</color>
 </resources>
