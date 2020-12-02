@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="space_14x">56dp</dimen>
+    <dimen name="space_8x">32dp</dimen>
+    <dimen name="space_6x">24dp</dimen>
+    <dimen name="space_5x">20dp</dimen>
+    <dimen name="space_4x">16dp</dimen>
+    <dimen name="space_3x">12dp</dimen>
+    <dimen name="space_2x">8dp</dimen>
+    <dimen name="space_1.5x">6dp</dimen>
+    <dimen name="space_1x">4dp</dimen>
+    <dimen name="space_0.5">2dp</dimen>
+    <dimen name="match_constraints">0dp</dimen>
+
+
+    <dimen name="heading_1">40sp</dimen> <!-- title -->
+    <dimen name="heading_2">14sp</dimen> <!-- genre, review, storyline, cast -->
+    <dimen name="heading_3">12sp</dimen> <!-- back, rating, actors -->
+    <dimen name="heading_4">8sp</dimen> <!-- back, rating, actors -->
+
+    <dimen name="height_1x">4sp</dimen>
+    <dimen name="height_2x">8sp</dimen>
+    <dimen name="height_3x">12sp</dimen>
+    <dimen name="height_4x">16sp</dimen>
+    <dimen name="height_5x">20sp</dimen>
+    <dimen name="height_6x">24sp</dimen>
+
+</resources>

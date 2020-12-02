@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView.BackButton" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/semi_50_white</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">@dimen/heading_3</item>
+    </style>
+
+    <style name="TextView.MovieRating" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">@dimen/heading_3</item>
+    </style>
+
+    <style name="TextView.MovieTitle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/almost_white</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">@dimen/heading_1</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:shadowColor">@color/semi_50_black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">12</item>
+    </style>
+
+    <style name="TextView.MovieGenre" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/radial_red</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">@dimen/heading_2</item>
+    </style>
+
+    <style name="TextView.MovieReviewCount" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light_grayish_navy</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">@dimen/heading_2</item>
+    </style>
+
+    <style name="TextView.MovieStorylineHeading" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/almost_white</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">@dimen/heading_2</item>
+        <item name="android:shadowColor">@color/semi_50_black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">12</item>
+    </style>
+
+    <style name="TextView.MovieCastHeading" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/almost_white</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">@dimen/heading_2</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:shadowColor">@color/semi_50_black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">12</item>
+    </style>
+
+    <style name="TextView.MovieStorylineDescription" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/semi_75_white</item>
+        <item name="android:textSize">@dimen/heading_2</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="TextView.MovieActorName" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light_silver</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">@dimen/heading_3</item>
+    </style>
+
+
+</resources>
