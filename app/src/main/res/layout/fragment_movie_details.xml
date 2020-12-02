@@ -36,7 +36,7 @@
 
         <ImageView
             android:id="@+id/movie_poster"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:contentDescription="@string/content_description_empty"
@@ -47,8 +47,8 @@
 
         <View
             android:id="@+id/movie_poster_gradient"
-            android:layout_width="@dimen/space_0x"
-            android:layout_height="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="@dimen/match_constraints"
             android:background="@drawable/mask_img_movie_poster"
             app:layout_constraintBottom_toBottomOf="@+id/movie_poster"
             app:layout_constraintEnd_toEndOf="@+id/movie_poster"
@@ -80,9 +80,9 @@
             android:id="@+id/movie_rating"
             style="@style/TextView.MovieRating"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/space_0x"
+            android:layout_height="@dimen/match_constraints"
             android:layout_marginBottom="@dimen/space_2x"
-            android:background="@drawable/mask_txt_rating"
+            android:background="@drawable/mask_main_txt_rating"
             android:elevation="@dimen/space_2x"
             android:gravity="center"
             android:padding="1dp"
@@ -94,7 +94,7 @@
         <TextView
             android:id="@+id/movie_title"
             style="@style/TextView.MovieTitle"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:text="@string/movie_title"
             app:layout_constraintBottom_toBottomOf="@id/movie_poster"
@@ -103,9 +103,9 @@
             app:layout_constraintTop_toBottomOf="@id/movie_poster" />
 
         <TextView
-            android:id="@+id/genre"
+            android:id="@+id/movie_genre"
             style="@style/TextView.MovieGenre"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_1x"
             android:text="@string/movie_genre"
@@ -182,16 +182,15 @@
             android:text="@string/movie_reviews"
             android:textAllCaps="true"
             app:layout_constraintStart_toEndOf="@id/star_5"
-            app:layout_constraintTop_toBottomOf="@id/genre" />
+            app:layout_constraintTop_toBottomOf="@id/movie_genre" />
 
         <TextView
             android:id="@+id/storyline"
             style="@style/TextView.MovieStorylineHeading"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_6x"
             android:text="@string/movie_storyline"
-            app:layout_constraintBottom_toTopOf="@id/storyline_description"
             app:layout_constraintEnd_toStartOf="@id/guideline_right"
             app:layout_constraintStart_toStartOf="@id/guideline_left"
             app:layout_constraintTop_toBottomOf="@id/review_count" />
@@ -200,7 +199,7 @@
         <TextView
             android:id="@+id/storyline_description"
             style="@style/TextView.MovieStorylineDescription"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_2x"
             android:text="@string/storyline_description"
@@ -211,7 +210,7 @@
         <TextView
             android:id="@+id/cast"
             style="@style/TextView.MovieCastHeading"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_6x"
             android:layout_marginBottom="@dimen/space_2x"
@@ -223,8 +222,8 @@
 
         <ImageView
             android:id="@+id/img_actor_1"
-            android:layout_width="@dimen/space_0x"
-            android:layout_height="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="@dimen/match_constraints"
             android:contentDescription="@string/content_description_empty"
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toStartOf="@id/img_actor_2"
@@ -234,8 +233,8 @@
 
         <ImageView
             android:id="@+id/img_actor_2"
-            android:layout_width="@dimen/space_0x"
-            android:layout_height="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="@dimen/match_constraints"
             android:layout_marginStart="@dimen/space_2x"
             android:contentDescription="@string/content_description_empty"
             app:layout_constraintDimensionRatio="1:1"
@@ -246,8 +245,8 @@
 
         <ImageView
             android:id="@+id/img_actor_3"
-            android:layout_width="@dimen/space_0x"
-            android:layout_height="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="@dimen/match_constraints"
             android:layout_marginStart="@dimen/space_2x"
             android:contentDescription="@string/content_description_empty"
             app:layout_constraintDimensionRatio="1:1"
@@ -258,8 +257,8 @@
 
         <ImageView
             android:id="@+id/img_actor_4"
-            android:layout_width="@dimen/space_0x"
-            android:layout_height="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="@dimen/match_constraints"
             android:layout_marginStart="@dimen/space_2x"
             android:contentDescription="@string/content_description_empty"
             app:layout_constraintDimensionRatio="1:1"
@@ -272,7 +271,7 @@
         <TextView
             android:id="@+id/name_actor_1"
             style="@style/TextView.MovieActorName"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_1.5x"
             android:text="@string/robert_downey_jr_name"
@@ -284,7 +283,7 @@
         <TextView
             android:id="@+id/name_actor_2"
             style="@style/TextView.MovieActorName"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:text="@string/chris_evans_name"
             app:layout_constraintBaseline_toBaselineOf="@id/name_actor_1"
@@ -294,7 +293,7 @@
         <TextView
             android:id="@+id/name_actor_3"
             style="@style/TextView.MovieActorName"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:text="@string/mark_ruffalo_name"
             app:layout_constraintBaseline_toBaselineOf="@id/name_actor_1"
@@ -304,7 +303,7 @@
         <TextView
             android:id="@+id/name_actor_4"
             style="@style/TextView.MovieActorName"
-            android:layout_width="@dimen/space_0x"
+            android:layout_width="@dimen/match_constraints"
             android:layout_height="wrap_content"
             android:text="@string/chris_hemsworth_name"
             app:layout_constraintBaseline_toBaselineOf="@id/name_actor_1"
